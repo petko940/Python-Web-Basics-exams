@@ -15,14 +15,14 @@
         <!-- Navigation -->
         <nav class="navbar">
             <section class="navbar-dashboard">
-                <a href="#">Dashboard</a>
+                <a href="{% url 'check_if_there_is_profile'%}">Dashboard</a>
             </section>
         </nav>
     </header>
 
     <!-- No Profile Page -->
     <section id="register-page" class="register">
-        <form id="register-form" action="{% url 'home_no_profile' %}" method="post">
+        <form id="register-form" action="{% url 'check_if_there_is_profile' %}" method="post">
             {% csrf_token %}
 
             <fieldset>

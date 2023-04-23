@@ -8,9 +8,9 @@ from library.models import Profile, Book
 def check_if_there_is_profile(request):
     profile = Profile.objects.all()
     if not profile:
-        return redirect("home_no_profile")
+        return home_no_profile(request)
     else:
-        return redirect("home_with_profile")
+        return home_with_profile(request)
 
 
 def home_no_profile(request):
@@ -20,7 +20,7 @@ def home_no_profile(request):
         form = ProfileForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('home_with_profile')
+            return home_with_profile(request)
     else:
         form = ProfileForm()
 
@@ -47,7 +47,7 @@ def add_book(request):
         form = BookForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('home_with_profile')
+            return home_with_profile(request)
 
     return render(request, 'add-book.html', context)
 
@@ -64,7 +64,7 @@ def detail_book(request, id):
 def delete_book(request, id):
     book = Book.objects.get(id=id)
     book.delete()
-    return redirect('home_with_profile')
+    return home_with_profile(request)
 
 
 def edit_book(request, id):
@@ -74,7 +74,7 @@ def edit_book(request, id):
 
     if form.is_valid():
         form.save()
-        return redirect('home_with_profile')
+        return home_with_profile(request)
 
     context = {'form': form,
                'book': book,

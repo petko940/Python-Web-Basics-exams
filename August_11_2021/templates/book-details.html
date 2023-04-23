@@ -15,7 +15,7 @@
         <!-- Navigation -->
         <nav class="navbar">
             <section class="navbar-dashboard">
-                <a href="{% url 'home_with_profile' %}">Dashboard</a>
+                <a href="{% url 'check_if_there_is_profile' %}">Dashboard</a>
                 <div id="user">
                     <span>Welcome, {{ profile.first_name }}</span>
                     <a class="button" href="{% url 'add' %}">Add Book</a>

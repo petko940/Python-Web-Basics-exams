@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!-- profile details section -->
+    <section id="game-details">
+        <h1>Profile Details</h1>
+        <div class="info-section">
+            <div class="game-header">
+                <!-- default profile image (if the user does NOT have any)-->
+                {% if not profile.profile_picture %}
+                    <img class="game-img" src="/static/images/default-user.jpg" alt='profile-image'/>
+                    <!-- if the user has a profile image -->
+                {% elif profile.profile_picture %}
+                    <img class="game-img" src="{{ profile.profile_picture }}" alt='profile-image'/>
+                {% endif %}
+
+                <!-- user full name (if any) -->
+                {% if profile.first_name and profile.last_name %}
+                    <h1>{{ profile.first_name }} {{ profile.last_name }}</h1>
+                {% elif  profile.first_name and not profile.last_name %}
+                    <h1>{{ profile.first_name }}</h1>
+                {% elif not  profile.first_name and profile.last_name %}
+                    <h1>{{ profile.last_name }}</h1>
+                {% endif %}
+
+                <!-- user email -->
+                <p class="text">Email: {{ profile.email }}</p>
+                <!-- user age -->
+                <p class="text">Age: {{ profile.age }}</p>
+                <!-- total number of games -->
+                <p class="text">Total games: {{ number_games }}</p>
+                <!-- average rating for all games -->
+                {% if games %}
+                    <p class="text">Average rating: {{ average_rating|floatformat:1 }}</p>
+                {% else %}
+                    <p class="text">Average rating: 0.0</p>
+                {% endif %}
+                <!-- Edit/Delete buttons -->
+                <div class="buttons">
+                    <a href="{% url 'profile_edit' %}" class="button">Edit</a>
+                    <a href="{% url 'profile_delete' %}" class="button">Delete</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

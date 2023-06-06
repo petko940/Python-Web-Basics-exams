@@ -1,5 +1,5 @@
 """
-WSGI config for django_first_exam project.
+WSGI config for November012020 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,5 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'November_01_2020.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'November012020.settings')
+
 application = get_wsgi_application()

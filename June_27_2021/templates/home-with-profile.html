@@ -1,66 +1,26 @@
-{% load static %}
-<html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
-    <title>Notes</title>
-</head>
+{% extends 'base.html' %}
+{% block content %}
 
-<body>
-<!--navigation bar-->
-<header>
-    <nav>
-        <ul>
-            <li class="img"><img src="/static/images/note.png" alt=""/></li>
-            <li><a href="/">Notes</a></li>
-            {% if profile %}
-
-                <li class="right">
-                    <a href="/add">Add Note</a>
-                    <a href="/profile">Profile</a>
-                </li>
-                </ul>
-            {% endif %}
-    </nav>
-</header>
-<!--end navigation bar-->
-
-{% if not profile %}
-    <div class="form">
-        <form method="POST" action="{% url 'home_no_profile' %}">
-            {% csrf_token %}
-
-            {{ form }}
-
-            <input type="submit" value="SUBMIT"/>
-        </form>
-    </div>
-{% endif %}
-
-{% if profile %}
     <h1>My Notes</h1>
+
     {% if not notes %}
         <h2>There are no notes.</h2>
+    {% else %}
+
         <!--notes container-->
-    {% elif notes %}
         {% for note in notes %}
         <div class="note-container">
-            <h2>{{ note.title }} <img src="{{ note.image_url }}" alt=""/></h2>
-                {{ note.content }}
+            <h2>{{ note.title }}<img src="https://www.freeiconspng.com/thumbs/tasks-icon/tasks-icon-9.png" alt=""/></h2>
+
             <div class="right">
-                <a class="button details" href="{% url 'note_details' id=note.id %}">Details</a>
-                <a class="button edit" href="{% url 'note_edit' id=note.id %}">Edit</a>
-                <a class="button delete" href="{% url 'note_delete' id=note.id %}">Delete</a>
+                <a class="button details" href="{% url 'details_note' note.pk %}">Details</a>
+                <a class="button edit" href="{% url 'edit_note' note.pk %}">Edit</a>
+                <a class="button delete" href="{% url 'delete_note' note.pk %}">Delete</a>
             </div>
         </div>
         {% endfor %}
+
     {% endif %}
-{% endif %}
 
-<footer>
-    <div>Python Web Basics Exam @SoftUni</div>
-</footer>
-</body>
-</html>
-
+    <!--end notes container-->
+{% endblock %}

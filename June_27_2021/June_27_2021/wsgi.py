@@ -1,5 +1,5 @@
 """
-WSGI config for django_exam_27_June_2021 project.
+WSGI config for June_27_2021 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

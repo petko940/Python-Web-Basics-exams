@@ -1,5 +1,5 @@
 """
-URL configuration for django_exam_27_June_2021 project.
+URL configuration for June_27_2021 project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -17,9 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-import notes
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('notes.urls'))
+    path('', include('June_27_2021.profiles.urls')),
+    path('', include('June_27_2021.notes.urls'))
 ]

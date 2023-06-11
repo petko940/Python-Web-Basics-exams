@@ -4,48 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11734d8-7c2c-4dcf-bd0b-45af895fe4d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/June_27_2021/notes/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/June_27_2021/notes/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/June_27_2021/notes/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/June_27_2021/profiles/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/notes/note-delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/notes/note-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../November012020/November012020/recipes/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/June_27_2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/June_27_2021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/June_27_2021/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/June_27_2021/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/June_27_2021/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/June_27_2021/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/notes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/notes/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/notes/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/migrations/0002_alter_profile_image_url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/migrations/0003_alter_profile_image_url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/notes/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/notes/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home-no-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home-no-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home-with-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home-with-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/note-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/notes/note-create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/note-delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/note-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/notes/note-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/note-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profiles/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November_01_2020/own_recipes/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/profiles/migrations/__init__.py" afterDir="false" />
+    <list default="true" id="e11734d8-7c2c-4dcf-bd0b-45af895fe4d2" name="Changes" comment="updated">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/69f58c7b-8daa-41db-8218-c88033173bb7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/69f58c7b-8daa-41db-8218-c88033173bb7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/June_27_2021/profiles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/June_27_2021/profiles/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profiles/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profiles/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -69,26 +42,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/python&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/python",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\python\Python-Web-Basics-exams\June_27_2021\templates\profiles" />
@@ -133,20 +107,36 @@
       <workItem from="1686394061641" duration="156000" />
       <workItem from="1686394246662" duration="5849000" />
       <workItem from="1686401463149" duration="1813000" />
+      <workItem from="1686403299013" duration="237000" />
+      <workItem from="1686495961515" duration="659000" />
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1686403491885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686403491885</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated">
+      <created>1686403521629</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686403521629</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/June_27_2021/profiles/views.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/June_27_2021/profiles/views.py</url>
           <line>19</line>

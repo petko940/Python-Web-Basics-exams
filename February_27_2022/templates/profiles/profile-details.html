@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
-<!--Details Page-->
 {% block content %}
+
+    <!--Details Page-->
     <section id="detailsPage">
         <div class="wrapper">
             <div class="profilePage">
@@ -12,10 +13,8 @@
                 <!-- Profile Info -->
                 <h1>Username: {{ profile.username }}</h1>
                 <h1>Email: {{ profile.email }}</h1>
-                {% if profile.age %}
-                    <h1>Age: {{ profile.age }}</h1>
-                {% endif %}
-                <h1>Albums: {{ number }}</h1>
+                <h1>Age: {{ profile.age }}</h1>
+                <h1>Albums: {{ albums.count }}</h1>
             </div>
 
             <div class="actionBtn">
@@ -25,4 +24,5 @@
 
         </div>
     </section>
+
 {% endblock %}

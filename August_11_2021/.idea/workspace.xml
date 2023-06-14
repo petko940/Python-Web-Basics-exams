@@ -4,50 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70537193-d8eb-4f85-aa50-9ab4f367f116" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/August_11_2021/books/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/August_11_2021/books/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/August_11_2021/home/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/August_11_2021/profiles/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/August_11_2021/profiles/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/books/add-book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/books/book-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/books/edit-book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/home-no-profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/home-with-profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/profiles/delete-profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/profiles/edit-profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/profiles/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/August_11_2021/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/August_11_2021/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/August_11_2021/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/August_11_2021/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add-book.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/book-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/delete-profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/edit-book.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/edit-profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home-no-profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home-with-profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June_27_2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../June_27_2021/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="70537193-d8eb-4f85-aa50-9ab4f367f116" name="Changes" comment="updated">
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/February_27_2022/albums/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/February_27_2022/albums/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/February_27_2022/home/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/February_27_2022/profiles/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/February_27_2022/profiles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/templates/albums/add-album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/templates/albums/album-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/templates/albums/delete-album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/templates/albums/edit-album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/templates/profiles/profile-delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../February_27_2022/templates/profiles/profile-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/.idea/February_27_2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/.idea/February_27_2022.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/February_27_2022/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/February_27_2022/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/February_27_2022/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/February_27_2022/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/migrations/0002_album_alter_profile_username.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/music_app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/templates/add-album.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/templates/album-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/templates/delete-album.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/templates/edit-album.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/templates/home-no-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/templates/home-no-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/templates/home-with-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/templates/home-with-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/templates/profile-delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/templates/profile-details.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -75,6 +82,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/python/Python-Web-Basics-exams/August_11_2021/templates&quot;,
@@ -144,11 +152,26 @@
       <workItem from="1686570493446" duration="199000" />
       <workItem from="1686570706629" duration="18000" />
       <workItem from="1686579901232" duration="5949000" />
+      <workItem from="1686592116405" duration="380000" />
+      <workItem from="1686641902335" duration="91000" />
+      <workItem from="1686677567611" duration="45000" />
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1686592321155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686592321155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -157,11 +180,6 @@
           <url>file://$PROJECT_DIR$/August_11_2021/profiles/views.py</url>
           <line>9</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/August_11_2021/profiles/views.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

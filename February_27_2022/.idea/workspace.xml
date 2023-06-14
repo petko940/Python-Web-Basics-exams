@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48bc3537-5ab0-46b3-8bf5-9d0583f2456e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/February_27_2022/albums/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/February_27_2022/albums/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/February_27_2022/home/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/February_27_2022/profiles/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/February_27_2022/profiles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/albums/add-album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/albums/album-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/albums/delete-album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/albums/edit-album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/profiles/profile-delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/profiles/profile-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../August_11_2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../August_11_2021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/February_27_2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/February_27_2022.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/February_27_2022/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/February_27_2022/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/February_27_2022/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/February_27_2022/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/migrations/0002_album_alter_profile_username.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add-album.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/album-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/delete-album.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/edit-album.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home-no-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home-no-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home-with-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home-with-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile-delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile-details.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2R93gDqixCdehXLcq9j6xZik8Sk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/petko/Desktop/Python-Web-Basics-exams-main/Python-Web-Basics-exams-main/February_27_2022&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\Python-Web-Basics-exams\February_27_2022" />
+      <recent name="E:\python\Python-Web-Basics-exams\February_27_2022\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\Python-Web-Basics-exams\February_27_2022\templates\profiles" />
+      <recent name="E:\python\Python-Web-Basics-exams\February_27_2022\templates\albums" />
+      <recent name="E:\python\Python-Web-Basics-exams\February_27_2022\February_27_2022" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="February_27_2022" type="Python.DjangoServer" factoryName="Django server">
+      <module name="February_27_2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="February_27_2022.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48bc3537-5ab0-46b3-8bf5-9d0583f2456e" name="Changes" comment="" />
+      <created>1686648579930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686648579930</updated>
+      <workItem from="1686648592381" duration="5890000" />
+      <workItem from="1686657094507" duration="1622000" />
+      <workItem from="1686668758118" duration="1166000" />
+      <workItem from="1686670761007" duration="74000" />
+      <workItem from="1686671057914" duration="437000" />
+      <workItem from="1686671562394" duration="2062000" />
+      <workItem from="1686677617496" duration="382000" />
+      <workItem from="1686678011690" duration="39000" />
+      <workItem from="1686678068366" duration="84000" />
+      <workItem from="1686678256812" duration="6000" />
+      <workItem from="1686678268108" duration="26000" />
+      <workItem from="1686679526360" duration="105000" />
+      <workItem from="1686679640439" duration="58000" />
+      <workItem from="1686679707125" duration="33000" />
+      <workItem from="1686679749127" duration="19000" />
+      <workItem from="1686679776352" duration="31000" />
+      <workItem from="1686679815054" duration="21000" />
+      <workItem from="1686679842762" duration="57000" />
+      <workItem from="1686679907851" duration="68000" />
+      <workItem from="1686680065645" duration="34000" />
+      <workItem from="1686680313771" duration="22000" />
+      <workItem from="1686680343695" duration="47000" />
+      <workItem from="1686738080921" duration="2285000" />
+      <workItem from="1686740379800" duration="281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

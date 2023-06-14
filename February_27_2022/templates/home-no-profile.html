@@ -1,7 +1,8 @@
-{% extends "base.html" %}
-
+{% extends 'base.html' %}
+{% load static %}
 {% block content %}
-    <!-- Home Page -->
+
+    <!--Home Page-->
     <div class="container-inline">
         <section id="welcomePage">
             <div id="welcome-message">
@@ -9,21 +10,21 @@
                 <h1>My Music App!</h1>
             </div>
             <div class="music-img">
-                <img src="/static/images/musicIcons.webp" alt="music-icon">
+                <img src="{% static 'images/musicIcons.webp' %}" alt="music-icon">
             </div>
         </section>
-
 
         <!-- Registration -->
         <section id="registerPage">
             <form method="post">
-                {% csrf_token %}
-
                 <fieldset>
                     <legend>Profile</legend>
                     <!-- Form for Registration -->
+
+                    {% csrf_token %}
                     {{ form }}
 
+                    <!-- Button to Create Profile -->
                     <button type="submit" class="register">Enter</button>
                 </fieldset>
             </form>

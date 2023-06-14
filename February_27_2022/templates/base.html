@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8"/>
     <title>My Music App</title>
     <!-- Static Load -->
-    <link rel="stylesheet" href="/static/css/style.css"/>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
 </head>
 
 <body>
@@ -14,18 +15,21 @@
     <!-- Navigation Bar -->
     <header>
         <nav>
-            <img src="/static/images/headphones.png" alt="headphones">
-            <a href="{% url 'check_for_profile' %}">Home</a>
+            <img src="{% static 'images/headphones.png' %}" alt="headphones">
+            <a href="{% url 'home' %}">Home</a>
             <ul></ul>
-            <ul>
-                <!--Only for user with created profile-->
-                <li><a href="{% url 'album_add' %}">Create Album</a></li>
-                <li><a href="{% url 'profile_details' %}">Profile</a></li>
-            </ul>
+            {% if profile %}
+                <ul>
+                    <!--Only for user with created profile-->
+                    <li><a href="{% url 'album_add' %}">Create Album</a></li>
+                    <li><a href="{% url 'profile_details' %}">Profile</a></li>
+                </ul>
+            {% endif %}
         </nav>
     </header>
     <!-- End Navigation Bar -->
     {% block content %}
+
     {% endblock %}
     <!-- Main Content -->
 

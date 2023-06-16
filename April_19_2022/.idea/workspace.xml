@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97fca11b-dca1-45d4-b689-4241ea9d6222" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/April_19_2022/common/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/April_19_2022/games/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/April_19_2022/games/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/April_19_2022/profiles/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/April_19_2022/profiles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/common/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/common/home-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/games/create-game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/games/delete-game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/games/details-game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/games/edit-game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/profiles/create-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/profiles/delete-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/profiles/details-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/profiles/edit-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/April_19_2022/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/April_19_2022/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/April_19_2022/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/April_19_2022/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/migrations/0002_alter_game_image_url_alter_game_max_level_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/migrations/0003_alter_profile_first_name_alter_profile_last_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games_app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create-game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/delete-game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/delete-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/details-game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/details-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/edit-game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/edit-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/.idea/dataSources/83223ed9-3e9c-4006-b566-82798edefa1d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/.idea/dataSources/83223ed9-3e9c-4006-b566-82798edefa1d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/.idea/dataSources/83223ed9-3e9c-4006-b566-82798edefa1d/storage_v2/_src_/database/music.Je42Bg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/.idea/dataSources/83223ed9-3e9c-4006-b566-82798edefa1d/storage_v2/_src_/database/music.Je42Bg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/.idea/dataSources/83223ed9-3e9c-4006-b566-82798edefa1d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/.idea/dataSources/83223ed9-3e9c-4006-b566-82798edefa1d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../February_27_2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../February_27_2022/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2RHaX8Gg7bxDFdKkKWVZmNlmpqO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/python/Python-Web-Basics-exams/April_19_2022/templates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\Python-Web-Basics-exams\April_19_2022\templates" />
+      <recent name="E:\python\Python-Web-Basics-exams\April_19_2022" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\Python-Web-Basics-exams\April_19_2022\templates\common" />
+      <recent name="E:\python\Python-Web-Basics-exams\April_19_2022\templates\profiles" />
+      <recent name="E:\python\Python-Web-Basics-exams\April_19_2022\templates\games" />
+      <recent name="E:\python\Python-Web-Basics-exams\April_19_2022\April_19_2022" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="April_19_2022" type="Python.DjangoServer" factoryName="Django server">
+      <module name="April_19_2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="April_19_2022.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97fca11b-dca1-45d4-b689-4241ea9d6222" name="Changes" comment="" />
+      <created>1686909497691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686909497691</updated>
+      <workItem from="1686909508527" duration="8755000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/April_19_2022/profiles/views.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/April_19_2022/profiles/views.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5683f88-b057-4790-99f8-e36ded60015e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/December_21_2022/plants/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/December_21_2022/plants/migrations/0002_alter_plant_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/December_21_2022/plants/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/December_21_2022/plants/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/December_21_2022/profiles/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/December_21_2022/profiles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/December_21_2022/profiles/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/December_21_2022/profiles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/December_21_2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/December_21_2022.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/December_21_2022/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/December_21_2022/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/December_21_2022/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/December_21_2022/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/catalogue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/December_21_2022/common/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/December_21_2022/plants/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/December_21_2022/plants/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/templates/create-plant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/templates/delete-plant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/templates/edit-plant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/templates/plant-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/December_21_2022/plants/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/December_21_2022/profiles/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/December_21_2022/profiles/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/templates/create-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/templates/delete-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/templates/edit-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/templates/profile-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/December_21_2022/profiles/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/views.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2RSgvHhAw9ImPdd8fwtPDhZVPVy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/python/Python-Web-Basics-exams/December_21_2022/templates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\Python-Web-Basics-exams\December_21_2022\templates" />
+      <recent name="D:\python\Python-Web-Basics-exams\December_21_2022" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\Python-Web-Basics-exams\December_21_2022\templates\profiles" />
+      <recent name="D:\python\Python-Web-Basics-exams\December_21_2022\templates\plants" />
+      <recent name="D:\python\Python-Web-Basics-exams\December_21_2022\templates\common" />
+      <recent name="D:\python\Python-Web-Basics-exams\December_21_2022\December_21_2022" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="December_21_2022" type="Python.DjangoServer" factoryName="Django server">
+      <module name="December_21_2022" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="December_21_2022.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5683f88-b057-4790-99f8-e36ded60015e" name="Changes" comment="" />
+      <created>1687249125882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687249125882</updated>
+      <workItem from="1687249128513" duration="7379000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

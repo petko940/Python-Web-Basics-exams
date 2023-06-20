@@ -23,9 +23,7 @@
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/plants/templates" />
-        <option value="$MODULE_DIR$/profiles/templates" />
-        <option value="$MODULE_DIR$/home/templates" />
+        <option value="$MODULE_DIR$/../December_21_2022\templates" />
       </list>
     </option>
   </component>

@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
+
 <!--Edit Page-->
 <section class="editPage">
     <form method="post">
@@ -8,13 +9,14 @@
             <div class="container">
 
                 <!-- Form for Editing Album -->
-                <label for="name">Album Name:</label>
                 {% csrf_token %}
                 {{ form }}
+
                 <!-- Button for Editing Album -->
                 <button class="edit-album" type="submit">Edit Album</button>
             </div>
         </fieldset>
     </form>
 </section>
+
 {% endblock %}

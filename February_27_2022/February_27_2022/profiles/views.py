@@ -6,26 +6,27 @@ from February_27_2022.profiles.models import Profile
 
 # Create your views here.
 def profile_details(request):
-    profile = Profile.objects.first()
-    albums = Album.objects.all()
+    profile = Profile.objects.all()[0]
+    albums_count = Album.objects.all().count()
 
     context = {
-        "profile": profile,
-        'albums': albums,
+        'profile': profile,
+        'albums_count': albums_count,
     }
     return render(request, 'profiles/profile-details.html', context)
 
 
 def profile_delete(request):
     profile = Profile.objects.first()
-    albums = Album.objects.all()
+    album = Album.objects.all()
 
     if request.method == 'POST':
         profile.delete()
-        albums.delete()
+        album.delete()
         return redirect('home')
 
     context = {
-        'profile': profile
+        'profile': profile,
+        'album': album,
     }
     return render(request, 'profiles/profile-delete.html', context)

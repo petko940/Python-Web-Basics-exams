@@ -1,18 +1,21 @@
-from django.core.exceptions import ValidationError
 from django.core.validators import MinLengthValidator, MinValueValidator
 from django.db import models
 
+from February_27_2022.profiles.validators import username_validator
+
 
 # Create your models here.
-def validate_username(value):
-    if not all(c.isalnum() or c == '_' for c in value):
-        print(type(value))
-        raise ValidationError("Ensure this value contains only letters, numbers, and underscore.")
-
-
 class Profile(models.Model):
     username = models.CharField(
-        max_length=15, validators=[validate_username, MinLengthValidator(2)]
+        max_length=15,
+        validators=[
+            MinLengthValidator(2),
+            username_validator
+        ]
     )
     email = models.EmailField()
-    age = models.IntegerField(null=True, blank=True, validators=[MinValueValidator(0)])
+    age = models.IntegerField(
+        null=True,
+        blank=True,
+        validators=[MinValueValidator(0)]
+    )

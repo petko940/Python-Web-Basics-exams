@@ -24,18 +24,18 @@ def album_add(request):
 
 def album_details(request, pk):
     album = Album.objects.get(pk=pk)
+
     context = {
-        'profile': Profile.objects.first(),
-        'album': album
+        'album': album,
+        "profile": Profile.objects.first()
     }
     return render(request, 'albums/album-details.html', context)
 
 
 def album_edit(request, pk):
-    profile = Profile.objects.first()
     album = Album.objects.get(pk=pk)
-
     form = AlbumForm(instance=album)
+
     if request.method == 'POST':
         form = AlbumForm(request.POST, instance=album)
         if form.is_valid():
@@ -43,19 +43,18 @@ def album_edit(request, pk):
             return redirect('home')
 
     context = {
-        'profile': profile,
-        'album': album,
         'form': form,
+        'profile': Profile.objects.first()
     }
     return render(request, 'albums/edit-album.html', context)
 
 
 def album_delete(request, pk):
-    profile = Profile.objects.first()
     album = Album.objects.get(pk=pk)
     form = AlbumForm(instance=album)
-    for field in form.fields:
-        form.fields[field].disabled = True
+
+    for field in form.fields.values():
+        field.widget.attrs['disabled'] = True
 
     if request.method == 'POST':
         album.delete()
@@ -63,7 +62,6 @@ def album_delete(request, pk):
 
     context = {
         'form': form,
-        'profile': profile,
-        'album': album
+        'profile': Profile.objects.first()
     }
     return render(request, 'albums/delete-album.html', context)

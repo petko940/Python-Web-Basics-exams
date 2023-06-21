@@ -1,3 +1,4 @@
+from django import forms
 from django.forms import ModelForm
 
 from February_27_2022.albums.models import Album
@@ -6,15 +7,42 @@ from February_27_2022.albums.models import Album
 class AlbumForm(ModelForm):
     class Meta:
         model = Album
-        fields = '__all__'
+        fields = "__all__"
+        widgets = {
+            "album_name": forms.TextInput(
+                attrs={
+                    "placeholder": "Album Name"
+                }
+            ),
+            "artist": forms.TextInput(
+                attrs={
+                    "placeholder": "Artist"
+                }
+            ),
+            "description": forms.Textarea(
+                attrs={
+                    "placeholder": "Description"
+                }
+            ),
+            "image_url": forms.URLInput(
+                attrs={
+                    "placeholder": "Image URL"
+                }
+            ),
+            "price": forms.NumberInput(
+                attrs={
+                    "placeholder": "Price"
+                }
+            )
 
-    def __init__(self, *args, **kwargs):
-        super(AlbumForm, self).__init__(*args, **kwargs)
-        self.fields['album_name'].widget.attrs['placeholder'] = 'Album Name'
-        self.fields['album_name'].label = 'Album Name'
-        self.fields['artist'].widget.attrs['placeholder'] = 'Artist'
-        # self.fields['genre'].widget.attrs['placeholder'] = ''
-        self.fields['description'].widget.attrs['placeholder'] = 'Description'
-        self.fields['image_url'].widget.attrs['placeholder'] = 'Image URL'
-        self.fields['image_url'].label = 'Image URL'
-        self.fields['price'].widget.attrs['placeholder'] = 'Price'
+        }
+        labels = {
+            "album_name": "Album Name",
+            "image_url": "Image URL",
+        }
+
+
+class AlbumDeleteForm(ModelForm):
+    class Meta:
+        model = Album
+        fields = "__all__"

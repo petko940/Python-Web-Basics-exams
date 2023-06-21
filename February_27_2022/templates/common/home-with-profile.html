@@ -1,16 +1,15 @@
 {% extends 'base.html' %}
 {% block content %}
+
     <!-- Catalog with Albums-->
     <section id="catalogPage">
 
         <!--  If No albums in catalog -->
         {% if not albums %}
             <p>No Albums in Catalog!</p>
-
         {% else %}
             <!-- If albums in catalog -->
             <h1>All Albums</h1>
-
             {% for album in albums %}
                 <!-- First Card-Box in catalog -->
                 <div class="card-box">
@@ -20,7 +19,7 @@
                             <p class="name">Name: {{ album.album_name }}</p>
                             <p class="artist">Artist: {{ album.artist }}</p>
                             <p class="genre">Genre: {{ album.genre }}</p>
-                            <p class="price">Price:{{ album.price|floatformat:2 }} </p>
+                            <p class="price">Price: {{ album.price|floatformat:2 }}</p>
                         </div>
                         <div class="btn-group">
                             <a href="{% url 'album_details' album.pk %}">Details</a>
@@ -30,5 +29,7 @@
                 <!-- End First Card-Box in catalog -->
             {% endfor %}
         {% endif %}
+
     </section>
+
 {% endblock %}

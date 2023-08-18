@@ -1,0 +1,24 @@
+{% extends "shared/base.html" %}
+
+{% block content %}
+    <!-- The Main Content for the Edit Event section -->
+    <section id="edit">
+        <div class="form">
+            <!-- Title of the Page -->
+            <h2>Edit Event</h2>
+
+            <!-- Edit Event Form -->
+            <form class="edit-form" method="post">
+
+                {% csrf_token %}
+                {{ form }}
+
+                <!-- Edit Button -->
+                <input class="btn" type="submit" value="Edit">
+
+            </form>
+            <!-- End Edit Event Form -->
+        </div>
+    </section>
+    <!-- End Edit Event section -->
+{% endblock %}

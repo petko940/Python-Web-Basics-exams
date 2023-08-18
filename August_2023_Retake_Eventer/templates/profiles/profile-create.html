@@ -1,0 +1,24 @@
+{% extends 'shared/base.html' %}
+
+{% block content %}
+    <!-- The Main Content for the Create Profile section -->
+    <section id="login">
+        <div class="form">
+            <!-- Title of the Page -->
+            <h2>Create Profile</h2>
+
+            <!-- Create Profile/Login Form -->
+            <form class="login-form" method="post">
+
+                {% csrf_token %}
+                {{ form.as_p }}
+
+                <!-- Submit Button -->
+                <input class="btn submit" type="submit" value="Submit">
+
+            </form>
+            <!-- End Create Profile/Login Form -->
+        </div>
+    </section>
+    <!-- End Create Profile section -->
+{% endblock %}

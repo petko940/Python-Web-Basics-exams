@@ -1,0 +1,24 @@
+{% extends "shared/base.html" %}
+
+{% block content %}
+    <!-- The Main Content for the Create Event section -->
+    <section id="create">
+        <div class="form">
+            <!-- Title of the Page -->
+            <h2>Create Event</h2>
+
+            <!-- Create Event Form -->
+            <form method="post" class="create-form">
+
+                {% csrf_token %}
+                {{ form }}
+
+                <!-- Create Button -->
+                <input class="btn" type="submit" value="Create">
+
+            </form>
+            <!-- End Create Event Form -->
+        </div>
+    </section>
+    <!-- End Create Event section -->
+{% endblock %}
